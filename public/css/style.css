@@ -8335,6 +8335,30 @@ footer.normal > div > div p {
   margin: 0;
 }
 
+@media screen and (max-width: 991px) {
+  .lee-cover_text {
+    font-size: 12px;
+  }
+  .lee-cover_text.text-1 {
+    left: 1vw;
+  }
+  .lee-cover_text.text-2 {
+    right: 1vw;
+  }
+  .lee-cover_text.text-3 {
+    left: 1vw;
+  }
+  .lee-cover_text.text-5 {
+    right: 1vw;
+  }
+  .lee-cover_text.text-6 {
+    left: 1vw;
+  }
+  .lee-cover_text.text-7 {
+    right: 1vw;
+  }
+}
+
 .lee-intro {
   padding-top: 140px;
   padding-bottom: 40px;
@@ -8401,6 +8425,17 @@ footer.normal > div > div p {
   .lee-intro {
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .lee-intro_info {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .lee-intro_info_item {
+    margin-right: 0;
   }
 }
 
