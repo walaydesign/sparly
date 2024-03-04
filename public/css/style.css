@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap");
 .py-100px {
   padding-top: 100px;
@@ -8935,5 +8936,255 @@ footer.normal > div > div p {
 .lee-content ul li {
   font-family: AvenirRoman;
   margin-bottom: 10px;
+}
+
+.iswim-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  margin-bottom: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-title {
+    font-size: 28px;
+  }
+}
+
+.iswim-text {
+  font-size: 30px;
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 0;
+  letter-spacing: 0.1em;
+  text-align: justify;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-text {
+    font-size: 20px;
+  }
+}
+
+.iswim-info {
+  background-color: #000;
+  padding: 95px 0 310px;
+  color: #fff;
+}
+
+.iswim-info_item {
+  margin-right: 200px;
+}
+
+.iswim-info_item:last-child {
+  margin-right: 0;
+}
+
+.iswim-info_item h3, .iswim-info_item p {
+  font-weight: normal;
+  font-family: AvenirRoman;
+  font-size: 34px;
+}
+
+.iswim-info_item h3 {
+  margin-bottom: 45px;
+}
+
+.iswim-info_item p {
+  margin: 0;
+  line-height: 1;
+}
+
+.iswim-info_item .ch {
+  font-family: "noto sans TC";
+}
+
+.iswim-info_copyright {
+  width: 400px;
+  margin-bottom: 8px;
+}
+
+.iswim-info_copyright > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .iswim-info_item {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .iswim-info_copyright {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-info {
+    padding: 45px 0 150px;
+  }
+  .iswim-info_item {
+    margin: 0 0 100px 0;
+  }
+  .iswim-info_item h3 {
+    margin-bottom: 30px;
+  }
+  .iswim-info_item h3, .iswim-info_item p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .iswim-info_copyright {
+    width: 100%;
+  }
+}
+
+.iswim-intro {
+  padding: 230px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-intro {
+    padding: 110px 0;
+  }
+}
+
+.iswim-pic {
+  padding: 300px 0 130px;
+  background-color: #000;
+}
+
+.iswim-pic .row {
+  margin-left: -45px;
+  margin-right: -45px;
+}
+
+.iswim-pic .row > div {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.iswim-pic .row > div:first-child {
+  margin-top: 30%;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-pic .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .iswim-pic .row > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .iswim-pic .row > div:first-child {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+}
+
+.iswim-core {
+  padding: 60px 0 105px;
+  background-color: #000;
+}
+
+.iswim-core h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 155px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+
+.iswim-core_bigtext {
+  width: 75%;
+  margin-bottom: 130px;
+}
+
+.iswim-core p {
+  font-size: 30px;
+  margin: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-core h2 {
+    font-size: 28px;
+    margin-bottom: 70px;
+  }
+  .iswim-core_bigtext {
+    width: 100%;
+    margin-bottom: 65px;
+  }
+  .iswim-core p {
+    font-size: 22px;
+  }
+}
+
+.iswim-slogan {
+  padding: 245px 0 280px;
+}
+
+.iswim-slogan img {
+  margin-bottom: 70px;
+}
+
+.iswim-slogan img:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-slogan {
+    padding: 120px 0 140px;
+  }
+  .iswim-slogan img {
+    margin-bottom: 35px;
+  }
+}
+
+.iswim-brandmark {
+  background-color: #000;
+  padding: 280px 0 330px;
+}
+
+.iswim-brandmark_text {
+  margin-top: 290px;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-brandmark {
+    padding: 140px 0 160px;
+  }
+  .iswim-brandmark_text {
+    margin-top: 140px;
+  }
+}
+
+.iswim-concept {
+  background-color: #000;
+  padding: 280px 0 550px;
+  color: #fff;
+}
+
+.iswim-concept h2 {
+  margin-bottom: 350px;
+}
+
+.iswim-concept_mean {
+  margin-bottom: 590px;
+}
+
+@media screen and (max-width: 767px) {
+  .iswim-concept {
+    padding: 280px 0 270px;
+  }
+  .iswim-concept h2 {
+    margin-bottom: 170px;
+  }
+  .iswim-concept_mean {
+    margin-bottom: 300px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
