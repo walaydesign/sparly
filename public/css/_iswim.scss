@@ -195,4 +195,145 @@
             }
         }
     }
+    &-color {
+        background-color: #000;
+        padding: 210px 0 420px;
+        h2 {
+            color: #fff;
+            margin-bottom: 210px;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 105px 0 210px;
+            h2 {
+                margin-bottom: 105px;
+            }
+        }
+    }
+    &-font {
+        background-color: #000;
+        h2 {
+            color: #fff;
+        }
+    }
+    &-challenge {
+        background-color: #000;
+        padding: 80px 0 380px;
+        color: #fff;
+        @media screen and (max-width: 767px) {
+            padding: 40px 0 190px;
+        }
+    }
+    &-feature {
+        background-color: #000;
+        padding-bottom: 310px;
+        @media screen and (max-width: 767px) {
+            padding-bottom: 150px;
+        }
+    }
+    &-levelup {
+        margin-top: -250px;
+        margin-bottom: 165px;
+        img {
+            width: 40%;
+            margin: 0 auto;
+            display: block;
+        }
+        @media screen and (max-width: 767px) {
+            margin-top: -125px;
+            margin-bottom: 80px;
+            img {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            margin-top: -80px;
+        }
+    }
+    &-find {
+        padding: 430px 0;
+        img {
+            width: 40%;
+            display: block;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 200px 0;
+        }
+        @media screen and (max-width: 575px) {
+            img {
+                width: 70%;
+            }
+        }
+    }
+    &-unstop {
+        padding: 255px 0;
+        background-color: #F3F3F3;
+        img {
+            width: 40%;
+            display: block;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 120px 0;
+        }
+        @media screen and (max-width: 575px) {
+            img {
+                width:70%;
+            }
+        }
+    }
+    &-visual {
+        padding: 160px 0 0;
+        background-color: #000;
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 160px;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 80px 0 0;
+            h2 {
+                margin-bottom: 80px;
+            }
+        }
+    }
+    &-branding {
+        background-color: #000;
+        padding: 150px 0 350px;
+        color: #fff;
+        font-family: $font-avenirRoman;
+        &_part {
+            margin-top: 150px;
+            &_item {
+                margin-bottom: 65px;
+                h4 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-bottom: 8px;
+                }
+                p {
+                    font-family: $english-font;
+                    font-size: 35px;
+                    margin: 0;
+                }
+            }
+        }
+        @media screen and (max-width: 767px) {
+            padding: 75px 0 170px;
+            &_part {
+                margin-top: 75px;
+                &_item {
+                    margin-bottom: 30px;
+                    h4 {
+                        font-size: 13px;
+                    }
+                    p {
+                        font-family: $english-font;
+                        font-size: 24px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
 }
